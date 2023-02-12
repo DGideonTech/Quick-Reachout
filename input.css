@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes appear{
+    0%{
+        width: 0%;
+    }
+}
+.write, .show.reg{
+    display: block;
+    width: 50%;
+    animation: appear 1s;
+    color:#f5f6ff
+}
